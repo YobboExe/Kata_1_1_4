@@ -22,7 +22,7 @@ public class Main {
         userService.saveUser("Newbie", "Human", (byte) 0);
         System.out.println(userService.getAllUsers());
         userService.cleanUsersTable();
-        userService.dropUsersTable();
+//        userService.dropUsersTable();
 
     }
 }
